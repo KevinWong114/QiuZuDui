@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+		  package="qiuzuidui.QiuZuDui"
+		  android:versionCode="1"
+		  android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="19"/>
+	<application android:label="@string/app_name" android:icon="@drawable/ic_launcher"
+		android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+
+		<activity android:name=".WelcomeActivity"
+				  android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".LoginActivity">
+
+		</activity>
+
+        <activity android:name=".PersonalRegisterActivity">
+
+		</activity>
+
+		<activity android:name=".OrgRegisterActivity">
+
+		</activity>
+
+		<activity android:name=".MainActivity">
+
+		</activity>
+
+		<activity android:name=".AbstractActivity">
+
+		</activity>
+
+		<activity android:name=".LikeActivity">
+
+		</activity>
+
+		<activity android:name=".NewActivity">
+
+		</activity>
+
+		<activity android:name=".HotActivity">
+
+		</activity>
+
+	</application>
+</manifest>
